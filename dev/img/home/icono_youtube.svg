@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1242 359.686 18.126 14.5">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: #54d1f7;
+      }
+    </style>
+  </defs>
+  <g id="icono_youtube" class="cls-1" transform="translate(1242 359.686)">
+    <g id="video-youtube_1_" transform="translate(0)">
+      <path id="Path_16" data-name="Path 16" class="cls-2" d="M16.313.363A50.154,50.154,0,0,0,9.063,0a50.153,50.153,0,0,0-7.25.363C.363.814,0,3.988,0,7.25s.363,6.433,1.813,6.888a50.154,50.154,0,0,0,7.25.363,50.154,50.154,0,0,0,7.25-.363c1.45-.455,1.813-3.625,1.813-6.888S17.763.814,16.313.363ZM7.25,11.33V3.17l5.438,4.08Z" transform="translate(0)"/>
+    </g>
+  </g>
+</svg>

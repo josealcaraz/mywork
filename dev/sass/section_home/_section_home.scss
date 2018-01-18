@@ -1,0 +1,451 @@
+
+
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+#fp-nav ul li a span{
+	background: #fff;
+}
+#fp-nav ul li a .purple{
+    background: #0f1562;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: arial,helvetica;
+	color: #fff;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 6em;
+}
+p{
+	font-size: 2em;
+}
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.section{
+	text-align:center;
+}
+#section0{
+	overflow: hidden;
+	background: #0e0e0e;
+}
+
+
+#section1{
+	overflow: hidden;
+	background: #16615d url(../img/home/patron_puntas.png);
+
+}
+#section2{
+	overflow: hidden;
+	background: white url("../img/home/patron_curvas.png");
+
+
+}
+
+
+
+
+// css section0  
+
+.tycMobile{
+	display: none;
+}
+
+.textHome{
+	padding: 20px 0;
+        padding-right: 75px;
+    position: relative;
+	&::after{
+		content: "";
+		position: absolute;
+		background: #9cff2f;
+		background: -moz-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, #9cff2f), color-stop(100%, #54f7bb ));
+		background: -webkit-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+		background: -o-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+		background: -ms-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+		background: linear-gradient(to right, #9cff2f 0%, #54f7bb 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+		bottom: 0;
+		left: 0;
+		width: 17%;
+		height: 3px;
+
+	}
+	&.after2{
+		&::after{
+			content: "";
+			position: absolute;
+			background: #54D1F7;
+			bottom: 0;
+			left: 0;
+			width: 17%;
+			height: 3px;
+
+		}
+	}
+}
+.balon{
+    position: absolute;
+    transition: all 10ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.balon1{
+	left: -152px;
+    top: 15%;
+}
+.balon2{
+	right: 18%;
+    top: 23%;
+}
+.balon3{
+	    right: 30%;
+    bottom: -55px;
+}
+.animationBaool{
+	    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+	animation: balonAnimation 1s  ;
+    -o-animation: balonAnimation 1s  ;
+    -ms-animation: balonAnimation 1s  ;
+    -moz-animation: balonAnimation 1s   ;
+    -webkit-animation: balonAnimation 1s  ;
+}
+#gifHomeMobile{
+	display: none;
+}
+@-webkit-keyframes balonAnimation {
+    0%{top:-100px}
+    50%{top:0}
+    100%{top:0}
+}
+@keyframes balonAnimation {
+    0%{top:1000px}
+    70%{top:-40px}
+    100%{top:0}
+}
+// css section1
+.linksApp{
+	img{
+		cursor: pointer;
+	    max-height: 44px;
+    	min-width: 150px;
+	}	
+}
+.imgPaso2{
+	width: 100%;
+	    max-width: 490px;
+}
+.imgPaso3{
+	width: 100%;
+	    max-width: 300px;
+}
+.slick-dots{
+	position: absolute;
+	top: 21px;
+        left: -163px;
+	font-family: "AvenirNextLTPro-Demi";
+	font-size: 18px;
+	li{
+		position: relative;
+		button{
+			background: transparent;
+			border: 1px solid #FAD2DF;
+			color: #FAD2DF;
+			width: 50px;
+			height: 50px;
+			border-radius: 50px;
+			margin: 15px;
+			&:focus{
+				outline: none;
+			}
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			background: url("../img/internas/icono_puntos_pasos.svg");
+			background-repeat: no-repeat;
+			-ms-transform: rotate(90deg); /* IE 9 */
+			-webkit-transform: rotate(90deg); /* Safari */
+			transform: rotate(90deg);
+			top: -3px;
+			left: 50%;
+			margin-left: -12px;
+			width: 22px;
+			height: 8px;
+		}
+		&:first-child { 
+			&:after{
+				display: none;
+			}
+		}
+	}
+	.slick-active{
+		button{
+			background: #0F1562 !important;
+			border: 1px solid transparent;
+			color: #fff !important;
+		}
+	}
+}
+// css section1
+.redes{
+	display: flex;
+	    flex-direction: column;
+    position: absolute;
+    width: 40px;
+        right: -5%;
+    top: 33%;
+    z-index: 51;
+	.logoRedes{
+		max-width: 20px;
+		margin: 10px 10px;
+		cursor: pointer;
+		position: relative;
+		z-index: 7;
+	}
+	.textRedes{
+		-ms-transform: rotate(90deg); /* IE 9 */
+    	-webkit-transform: rotate(90deg); /* Safari */
+		transform: rotate(-90deg);
+		opacity: 0.6;
+    margin-top: 22px;
+	}
+}
+.sliderSection3{
+	left: -28px;
+	.slick-dots{
+		    top: 60px;
+		left: -15px;
+		li{
+			float: left;
+			button{
+				border: 1px solid #0F1562;
+				color: #0F1562;
+				margin: 15px;
+			}
+			&:after{
+				display: none;
+			}
+		}
+		.slick-active{
+			button{
+				background: #0F1562 !important;
+				border: 1px solid transparent;
+				color: #fff !important;
+			}
+		}
+	}
+}
+// css btnFlotante
+
+
+.circle {
+  border-radius: 50%;
+  background-color: #54D1F7;
+  height: 80px;
+  width: 80px;
+	position: fixed;
+    top: 90%;
+	left:90%;
+	text-align: center;
+    padding-top: 49px;
+	cursor: pointer;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);                                     
+	transform: translate(-50%,-50%);
+	transition: 0.2s;
+	z-index: 35;
+	&:hover{
+		height: 86px;
+		  width: 86px;
+	}
+	&::after{
+		content: "";
+		position: absolute;
+		background: url("../img/internas/icono_podium.svg");
+		background-size: contain;
+		width: 46px;
+		height: 23px;
+    	top: 22px;
+		left: 50%;
+		margin-left: -23px;
+	}
+	
+	&.circleActive{
+		&::after{
+			display: none;
+			
+		}
+		p{
+				display: none;
+			}
+	}
+}
+.circleTYC {
+    height: 0;
+    width: 238px;
+    position: fixed;
+    bottom: 47px;
+    right: 54%;
+    text-align: center;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    z-index: 35;
+            .linkTyC{
+                display: inline-block;
+                text-decoration: underline;
+                padding: 0 17px;
+                cursor: pointer;
+                color: #54D1F7;
+                opacity: 0.6;
+                margin-left: 21px;
+                border-left: 1px solid rgba(84, 209, 247, 0.4);
+                transition: 0.5s;
+                &.linkS2{
+                    color: #FAD2DF;
+                    border-left: 1px solid rgba(250, 210, 223, 0.4);
+                }
+                
+                &:hover{
+                    color: #fff;
+                    opacity: 1;
+                }
+                &.linkS3{
+                    color: #210049;
+                    border-left: 1px solid #210049;
+                    opacity: 1;
+                    &:hover{
+                    color: #f44880;
+                }
+            }
+		}
+		&.circleActive{
+			p{
+					display: none;
+			}
+		}
+    }
+
+//sectio terminos
+.posMovimiento{
+	min-height: 100vh;
+	position: relative;
+	width: 100%;
+}
+.SectionTerminos{
+	background:#DAFAF7;
+	min-height: 100vh;
+	position: relative;
+	.textTerminos{
+		position: fixed;
+		top: 47%;
+		max-width: 320px;
+		margin-left: 78px;
+		&::after{
+			content: "";
+			position: absolute;
+			background: url("../img/internas/icono_terminos_y_condiciones.svg");
+			    width: 63px;
+			height: 79px;
+			left: 71px;
+			top: -95px;
+		}
+	}
+}
+.widthAnimaciones{
+	max-width: 320px;
+	width: 100%;
+}
+
+.listRotado{
+	list-style: inherit;
+	padding-left: 24px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logoHome {
+	position: relative;
+    background: url(../img/home_logo.svg) center no-repeat;
+    background-size: contain;
+    max-width: 294px;
+    height: 294px;
+    margin: 10px auto;
+    width: 90%;
+}

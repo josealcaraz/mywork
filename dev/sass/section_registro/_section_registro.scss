@@ -1,0 +1,143 @@
+.SectionRegistro{
+    min-height: 100vh;
+    overflow: hidden;
+    background: #1281F0 url("../img/home/patron_curvas.png");
+    text-align: center;
+    form{
+        text-align: left;
+        color: #fff;
+            padding: 0 10px;
+    }
+    %transition {
+        -webkit-transition-duration: .2s;
+        transition-duration: .2s;
+        -webkit-transform: translate(0, -1.5em) scale(0.9, 0.9);
+        -ms-transform: translate(0, -1.5em) scale(0.9, 0.9);
+        transform: translate(0, -1.5em) scale(0.9, 0.9);
+        }
+
+        input[type="number"][required],input[type="text"][required],input[type="email"][required] {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        height: -webkit-calc(3em + 2px);
+        height: calc(3em + 2px);
+        margin: 0 0 1em;
+        padding: 1em;
+        border: 1px solid #cccccc;
+        border-radius: 1.5em;
+        background: transparent;
+        resize: none;
+        outline: none;
+            color: #fff;
+        & + label[placeholder] {
+            display: block;
+            pointer-events: none;
+            line-height: 1em;
+            margin-top: -webkit-calc(-3em - 2px);
+            margin-top: calc(-3em - 2px);
+            margin-bottom: -webkit-calc((3em - 1em) + 2px);
+            margin-bottom: calc((3em - 1em) + 2px);
+            &:before {
+            content: attr(Número de celular);
+            display: inline-block;
+            margin: 0 -webkit-calc(1em + 2px);
+            margin: 0 calc(1em + 2px);
+            padding: 0 2px;
+            color: #54D1F7;
+            white-space: nowrap;
+            -webkit-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#1281F0), to(#1281F0));
+            background-image: -webkit-linear-gradient(top, #1281F0, #1281F0);
+            background-image: linear-gradient(to bottom, #1281F0, #1281F0);
+            -webkit-background-size: 100% 5px;
+            background-size: 100% 5px;
+            background-repeat: no-repeat;
+            background-position: center; 
+            }
+        }
+        &:focus {
+            border-color: #fff;
+            & + label[placeholder]:before {
+            color: #00bafa;
+            @extend %transition;
+            }
+        }
+        &:valid + label[placeholder][alt]:before {
+             content: attr(alt);
+             @extend %transition;
+        }
+        &:invalid + label[placeholder][alt]:before {
+            content: attr(alt);
+        }
+        
+        }
+        input[type="checkbox"] {
+        display: none;
+        }
+        input[type="checkbox"] + span {
+        background-color: #1281F0;
+        border: 1px solid;
+        border-color: #ccc #fff #fff #ccc;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+        display: inline-block;
+        float: left;
+        margin-right: 7px;
+            padding: 8px;
+        position: relative;
+        }
+        input[type="checkbox"]:checked + span {
+        background-color: #fff;
+        border-color: #fff #fff #fff #fff;
+        color: #1281F0;
+        }
+        input[type="checkbox"]:checked + span:after {
+        color: #1281F0;
+        content: "\2714";
+        font-size: 13px;
+        left: 2px;
+        position: absolute;
+        top: 1px;
+        }
+        label:hover input[type="checkbox"] + span {
+        border-color: #fff #fff #fff #fff;
+        }
+        label:hover input[type="checkbox"]:checked + span {
+        border-color: #1281F0;
+        }
+        label input + span {
+        -webkit-transition: border-color .2s ease;
+        transition: border-color .2s ease;
+        }
+        label {
+        cursor: pointer;
+        }
+
+
+        .logoNequi {
+                 max-width: 162px;
+    position: relative;
+    bottom: 14px;
+    margin-left: -14px;
+    float: left;
+        }
+         .tycRegistro {
+                position: absolute;
+            top: inherit;
+            right: inherit;
+            float: left;
+            left: 127px;
+            transform: none;
+            bottom: 15px;
+            display: block;
+        }
+        .imgMuneco{
+                max-width: 229px;
+            margin: 0 auto;
+            margin-top: 65px;
+        }
+    
+}

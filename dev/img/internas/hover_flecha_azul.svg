@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-727 2281.433 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #210049;
+      }
+
+      .cls-2 {
+        fill: #96f9f6;
+      }
+    </style>
+  </defs>
+  <g id="hover_flecha_azul" transform="translate(-866 2238)">
+    <rect id="Rectangle_659" data-name="Rectangle 659" class="cls-1" width="40" height="40" rx="20" transform="translate(139 43.433)"/>
+    <path id="flecha_atras" class="cls-2" d="M59.375,881.039v2.3H45.364l6.431,6.431-1.608,1.608L41,882.187,50.187,873l1.608,1.608-6.431,6.431Z" transform="translate(109.128 -818.872)"/>
+  </g>
+</svg>

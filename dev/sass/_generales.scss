@@ -1,0 +1,394 @@
+
+body {
+	background: url("../img/home/patron_puntas.png"),radial-gradient(circle farthest-corner at 42% 50%, #EBEBEB 0%, #B4B4B4 55%);
+	min-height: 100vh;
+	width: 100%;
+}
+a{
+	&:focus{
+		outline: none;
+	}
+}
+button{
+	&:focus{
+		outline: none;
+	}
+}
+
+p{
+	margin: 0;
+}
+input{
+	border: 0px;
+	outline: none;
+}
+.with100{
+	width: 100%;
+}
+.mainWrapper{
+	width:	100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.width396 {
+    max-width: 396px;
+    width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.width960 {
+    max-width: 960px;
+    width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.width1024 {
+    max-width: 1065px;
+    width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.clear, .clearTwo, .clearFive {
+	position: relative;	
+	width: 100%;
+	height: 10px;
+}
+.clearTwo {
+	height: 20px;
+}
+.clearFive {
+	height: 30px;
+}
+.paddingleft41{
+	padding-left: 41px;
+}
+
+.marginCero{
+	margin: 0px;
+}
+.paddingCero{
+	padding: 0px;
+}
+.relative{
+	position: relative;
+}
+.pointer{
+	cursor: pointer;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+}
+.textLeft{
+    text-align: left;
+}
+.preloadView{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+.cBlanco{
+	color: #fff;
+}
+.cBlack{
+	color: #3A342E;
+}
+.cBlue1{
+	color: #54D1F7;
+}
+.cBlue2{
+	color: #45DFCE;
+}
+.cMorado{
+	color: #34057C;
+}
+.cYellow{
+	color: #FFF200;
+}
+.cOrange{
+	color: #FD9C37;
+}
+.cPink2{
+	color: #FAD2DF;
+}
+.cGreen{
+	color: #C3ED7A;
+}
+
+.bckYellow{
+	background-color: #FFFF00;
+}
+.cFucsia{
+	color: #ff1585;
+}
+.cGris{
+	color: #3a342e;
+}
+.bckBlue{
+	background-color: #01d4f1;
+}
+.bckRosado{
+	background-color: #FF02B0;
+}
+.bckFucsia{
+	background-color: #FF0084;
+}
+.cPurpura{
+	color: #9300B9;
+}
+.bckPurpura{
+	background-color: #9300B9;
+}
+.cMorado{
+	color: #716284;
+}
+.bckMorado{
+	background-color: #5C1A92;
+}
+.cMoradoOscuro{
+	color: #210049;
+}
+.bckMoradoOscuro{
+	background-color: #34057C;
+}
+.cVerde{
+	color: #B1FD00;
+}
+.bckVerde{
+	background-color: #B1FD00;
+	    padding: 7px 0;
+}
+.cVerdeViche{
+	color: #78E000;
+}
+.bckVerdeViche{
+	background-color: #78E000;
+}
+.cAmarillo{
+	color: #FFF200;
+}
+.bckAmarillo{
+	background-color: #FFE400;
+}
+
+.fontAvenirNextLTPro{
+	font-family: "AvenirNextLTPro-Demi";
+}
+.fontLato{
+	font-family: "Lato-Regular";
+}
+.fontAvenirNextLTProBold{
+	font-family: "AvenirNextLTPro-Bold";
+}
+
+
+.noMargin{
+	margin: 0 !important;
+}
+.centrarVertical{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bold{
+	font-weight: bold;
+}
+.textShadow{
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, 0.54);
+}
+.floatRight{
+	    float: right; 
+}
+.disableBtn{
+	background: rgba(255,47,115,1);
+	background: -moz-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,47,115,1)), color-stop(100%, rgba(229,103,144,1)));
+	background: -webkit-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: linear-gradient(to right, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+	background-repeat: no-repeat;
+	background-position-x: -300px;
+	border-radius: 20px;
+	opacity: 0.5;
+    border: 2px solid #54D1F7;
+    display: inline-block;
+    cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+	padding: 6px 38px;
+	p{
+		color: #54D1F7;
+	}
+}
+.btnTrasparent{
+	
+	background: rgba(255,47,115,1);
+	background: -moz-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,47,115,1)), color-stop(100%, rgba(229,103,144,1)));
+	background: -webkit-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: linear-gradient(to right, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+	background-repeat: no-repeat;
+	background-position-x: -300px;
+	border-radius: 20px;
+    border: 2px solid #54D1F7;
+    display: inline-block;
+    cursor: pointer;
+    top: 21px;
+	position: relative;
+	transition: 0.3s;
+	padding: 8px 21px;
+	p{
+		color: #54D1F7;
+	}
+	&:hover{
+		
+		background-position: 0;
+    	
+		padding: 10px 23px;
+		border: 0px solid transparent;
+		p{
+			color: #fff;
+		}
+	}
+}
+.btnPink{
+	opacity: 1;
+	background: rgba(255,47,115,1);
+	background: -moz-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,47,115,1)), color-stop(100%, rgba(229,103,144,1)));
+	background: -webkit-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	background: linear-gradient(to right, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+	background-position: 0;
+    background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;	
+	border-radius: 20px;
+	border: 0px solid transparent;
+	transition: 0.3s;
+	padding: 8px 40px;
+	p{
+		color: #fff;
+	}
+	.flechaPlay{
+		position: relative;
+			margin-left: 14px;
+			transition: 0.3s;
+		&::after{
+			content: "";
+			position: absolute;
+			background: url("../img/home/flecha_blanca_play.svg");
+			width: 10px;
+			height: 15px;
+			left: -15px;
+			top: 5px;
+			transition: 0.3s;
+		}
+	}
+	&:hover{
+		background-position-x: 300px;
+		padding: 6px 38px;
+		border: 2px solid #54D1F7;
+		.flechaPlay{
+			&::after{
+				background: url("../img/home/icono_play.svg");
+			}
+		}
+		p{
+			color: #54D1F7;
+		}
+	}
+}
+.btnTrasparentBlanck{
+	background: #fff;
+	background: -moz-linear-gradient(left, #fff 0%, #fff);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #fff), color-stop(100%, #fff));
+	background: -webkit-linear-gradient(left, #fff 0%, #fff);
+	background: -o-linear-gradient(left, #fff 0%, #fff);
+	background: -ms-linear-gradient(left, #fff 0%, #fff);
+	background: linear-gradient(to right, #fff 0%, #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+	background-repeat: no-repeat;
+	background-position-x: -300px;
+	border-radius: 20px;
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+	position: relative;
+	transition: 0.3s;
+	padding: 6px 21px;
+	p{
+		color: #fff;
+	}
+	&:focus{
+		outline: none;
+	}
+	&:hover{
+		
+		background-position: 0;
+    	
+		padding: 10px 23px;
+		border: 0px solid transparent;
+		p{
+			color: #f44880 ;
+		}
+	}
+}
+
+.link{
+	display: inline-block;
+    text-decoration: underline;
+    padding: 0 17px;
+    cursor: pointer;
+    color: #54D1F7;
+            opacity: 0.6;
+}
+.linkPink{
+    color: #FAD2DF;
+    opacity: 1;
+}
+.linkPurple{
+    color: #210049;
+    opacity: 1;
+}
+.btnIrAtras{
+	position: absolute;
+    left: 0;
+    top: 62px;
+	width: 50px;
+	height: 50px;
+	background: url("../img/internas/icono_atras.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+		margin-left: 16px;
+		transition: 0.2s;
+		&:hover{
+			background: url("../img/internas/icono_atras_hover.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+		}
+}
+.btnIrAtras2{
+	background: url("../img/internas/flecha_atras_azul.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	&:hover{
+			background: url("../img/internas/hover_flecha_azul.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+		}
+	
+}

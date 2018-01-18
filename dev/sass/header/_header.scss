@@ -1,0 +1,138 @@
+ #header{
+		position:fixed;
+		display:block;
+		width: 100%;
+		z-index:9;
+		text-align:center;
+        top:0px;
+        transition: 0.5s;
+        ul{
+            text-align: left;
+            border-bottom: 2px solid rgba(84, 209, 247, 0.24);
+            transition: 0.5s;
+            li{
+                font-family: "AvenirNextLTPro-Demi";
+                display: inline-block;
+                padding: 26px 17px;
+                
+                cursor: pointer;
+                color: #54D1F7;
+                opacity: 0.6;
+                transition: 0.5s;
+                position: relative;
+                &.logoNequi{
+                    opacity: 1;
+                    width: 0;
+                    padding: 0;
+                    transition: 0.5s;
+                    img{
+                        position: relative;
+                        max-width: 147px;
+                        margin-bottom: -85px;
+                        margin-top: -10px;
+                        margin-right: -17px;
+                        width: 0%;
+                        transition: 0.5s;
+                    }   
+                    &::after{
+                        display: none;
+                    } 
+                    &.showLogo{
+                         width: inherit;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                
+                p{
+                    font-size: 16px;
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    background: #9cff2f;
+                    background: -moz-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+                    background: -webkit-gradient(left top, right top, color-stop(0%, #9cff2f), color-stop(100%, #54f7bb));
+                    background: -webkit-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+                    background: -o-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+                    background: -ms-linear-gradient(left, #9cff2f 0%, #54f7bb 100%);
+                    background: linear-gradient(to right, #9cff2f 0%, #54f7bb 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+                    width: 100%;
+                    height: 3px;
+                    bottom: -3px;
+                    left: 0;
+                    opacity: 0;
+                    transition: 0.2s;
+                }
+                &:hover{
+                    opacity: 1;
+                    color: #fff;
+                    
+                }
+                &.activeMenu{
+                    opacity: 1;
+                    color: #fff;
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        &.section{
+            background: #fff;
+            -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+            box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+            ul{
+                li{
+                    color: #AAAAAA;
+                    opacity: 1;
+                    &:hover{
+                        color: #210049;
+                    }
+                    &.activeMenu{
+                        color: #210049;
+                        
+                    }
+                    
+                }
+                .btnTrasparent{
+                        background: rgba(255,47,115,1);
+                        background: -moz-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+                        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,47,115,1)), color-stop(100%, rgba(229,103,144,1)));
+                        background: -webkit-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+                        background: -o-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+                        background: -ms-linear-gradient(left, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+                        background: linear-gradient(to right, rgba(255,47,115,1) 0%, rgba(229,103,144,1) 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2f73', endColorstr='#e56790', GradientType=1 );
+                        background-position: 0;
+                        background-repeat: no-repeat;
+                        padding: 9px 22px;
+                        border: 0px solid transparent;
+                        border-radius: 20px;
+                        border: none;
+                        display: inline-block;
+                        float: right;
+                        cursor: pointer;
+                        top: 21px;
+                        position: relative;
+                        p{
+                            color: #fff;
+                        }
+                        
+                        &:hover{
+                            background-position-x: 300px;
+                            border: 1px solid #54D1F7;
+                            
+                            padding: 8px 21px;
+                            p{
+                                color: #54D1F7;
+                            }
+                        }
+                    }
+            }
+            
+        }
+	}

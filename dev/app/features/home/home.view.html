@@ -1,0 +1,22 @@
+<div ng-controller="menuController as vm">
+    <div ng-include="'app/features/partialview/menu.view.html'"></div>
+</div>
+
+<div id="fullPage" full-page options="vm.someOptions">
+    <div class="section" id="section0">
+            <div ng-include="'app/features/home/section0.view.html'"></div>
+    </div>
+    <div class="section" id="section1">      
+            <div ng-include="'app/features/home/section1.view.html'"></div>
+    </div>
+    <div class="section" id="section2">
+            <div ng-include="'app/features/home/section2.view.html'"></div>
+    </div>
+</div>
+<div ng-controller="footerController as vm">
+    <div ng-include="'app/features/partialview/footer.view.html'"></div>
+</div>
+
+
+
+    

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-766.695 594 26 25.475">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #54d1f7;
+      }
+
+      .cls-3 {
+        fill: #210049;
+      }
+    </style>
+  </defs>
+  <g id="icono_inicio_hover" transform="translate(-766.695 594)">
+    <g id="Group_2" data-name="Group 2" transform="translate(0.525 0.788)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" class="cls-1" d="M24.887,9.229,12.543.3.2,9.229V24.462H8.6V17.371h8.141v7.091h8.141Z" transform="translate(-0.2 -0.3)"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(3.939 7.091)">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_2" data-name="Path 2" class="cls-2" d="M14.631,20.3h3.152v.263h4.99L22.51,10.316,12.005,2.7,1.5,10.316V20.559H6.49V13.468h8.141Z" transform="translate(-1.5 -2.7)"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_3" data-name="Path 3" class="cls-3" d="M26,25.475H16.545V18.384H9.455v7.091H0V9.192L12.869,0,25.737,9.192V25.475Zm-8.4-1.313h6.828V9.98l-11.556-8.4L1.313,9.98V24.162H8.141V17.071H17.6Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

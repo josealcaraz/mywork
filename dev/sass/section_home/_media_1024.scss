@@ -1,0 +1,153 @@
+
+// css secction0
+#gifHomeMobile{
+    display: block;
+        margin: 0 auto;
+    position: relative;
+    margin-top: 66px;
+}
+#gifHome{
+	display: none;
+}
+.fontSize40 {
+    font-size: 28px;
+}
+.lineHeight50 {
+    line-height: 34px;
+}
+.lineHeight24 {
+    line-height: 20px;
+}
+.fontSize18 {
+    font-size: 14px;
+}
+.textHome{
+        text-align: center;
+    padding: 0 14px;
+    &::after{
+        display: none;
+    }
+}
+.textLeft{
+    text-align: center;
+}
+.logoNequiMobile{
+    display: block;
+       max-width: 140px;
+    position: relative;
+        left: 15px;
+    float: left;
+    top: 15px;
+}
+.tycMobile{
+    display: block;
+    text-align: left;
+}
+.balon1 {
+    left: -287px;
+    top: -14px;
+}
+.balon2 {
+    right: -22px;
+    top: 236px;
+}
+.balon3 {
+    right: 5%;
+    bottom: -71px;
+}
+// css section1
+.slick-dots, .sliderSection3 .slick-dots {
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    top: 21px;
+    /* margin: 0 auto; */
+    /* left: 0; */
+    font-family: "AvenirNextLTPro-Demi";
+    font-size: 18px;
+    li{
+        float: left;
+        &::after{
+            -ms-transform: rotate(0); /* IE 9 */
+			-webkit-transform: rotate(0); /* Safari */
+			transform: rotate(0);
+            top: 36px;
+            left: 0;
+        }
+    }
+}
+.sliderSection3{
+    left: 0;
+}
+.sliderSection3 .imgPaso2{
+    max-width: 300px;
+}
+.circle{
+        width: 56px;
+    height: 56px;
+    top: 84%;
+    padding-top: 28px;
+    &::after{
+        width: 34px;
+        height: 17px;
+        top: 11px;
+        margin-left: -17px;
+    }
+    p{
+        
+    }
+}
+.circle2{
+    width: 56px;
+    height: 56px;
+    top: 93%;
+    padding-top: 15px;
+
+}
+.btnIrAtras{
+        top: 2px;
+        z-index: 1;
+}
+.circleTYC{
+    display: none;
+}
+.imgMobile, .sliderSection3 .imgMobile{
+    max-width: 120px;
+}
+.imgMobile2{
+        max-width: 185px;
+}
+p{
+        padding: 0 10px;
+}
+.SectionTerminos{
+    .textTerminos{
+    position: relative;
+        margin: 0 auto;
+        margin-left: 24%;
+            margin-top: 120px;
+
+        display: inline-block;
+    }
+    p{
+        padding: 0 10px;
+    }
+
+} 
+.link{
+    font-size: 12px;
+}
+.width1024 {
+    max-width: 400px;
+}
+.widthAnimaciones{
+    max-width: 180px;
+    margin: 0 auto;
+}
+.redes{
+        top: 3px;
+}
+.SectionRegistro .logoNequi{
+    max-width: 139px;
+    margin-left: 6px;
+}

@@ -1,0 +1,61 @@
+
+section.topNequi {
+    overflow: hidden;
+}
+
+.headerCont {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background: #4c0096; /* Old browsers */
+    background: -moz-linear-gradient(left, #4c0096 0%, #210049 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #4c0096 0%,#210049 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #4c0096 0%,#210049 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c0096', endColorstr='#210049',GradientType=1 ); /* IE6-9 */
+    .imageTop {
+        max-width: 120px;
+        top: 43px;
+        position: relative;
+    }
+    .txtTop {
+        position: relative;
+        top: -114px;
+        left: inherit;
+    }
+}
+
+.centerField {
+    font-size: 12px;
+    margin: 60px auto 20px;
+    .suplentesCont {
+        right: -600px;
+        background: #66AB4D;
+        position: fixed;
+        float: right;
+        overflow-x: hidden;
+    }
+}
+
+.linkSuplentes {
+    display: block;
+}
+
+p.titleSuplentes {
+    color: #210049;
+    margin: 30px 0 50px;
+    padding: 0;
+}
+
+.backBtn {
+    width: 20px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    &:after {
+        display: none;
+    }
+}
+
+

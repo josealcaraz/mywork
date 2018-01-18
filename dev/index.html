@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" data-ng-app="angularAPP" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Some Jose´s work</title>
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="img/favicon.png">
+    <!-- inject:dev:css -->
+	<link rel="stylesheet" href="css/lib/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lib/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/lib/ngDialog.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endinject -->
+    
+</head>
+
+
+<body>
+
+    <!-- ini toast message -->
+    <div class="toastWrap" >
+        <div class="toastMsg" id="myToast">
+            <div class="wppTextToast">
+                <p id="toasMsgWrap" class="fontSize22 textCenter fontKGFallForYou"></p>
+                <div class="popupBtnClose" id="toastClose">x</div>
+            </div> 
+        </div>
+    </div>
+    <!-- end toast message -->
+
+    <div data-ng-view></div>
+
+    <div id="preload"><!--class="proloadPopup show">-->
+        <!--<img alt="" src="img/loader.gif">-->
+    </div>
+
+
+    <!-- inject:dev:js -->
+    <script src="js/lib/min/lib.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/post.js"></script>
+    <script src="js/pre.js"></script>
+    <!-- endinject -->
+
+	<!-- inject:js -->
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-676 1295 26 22.579">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ff2f73;
+      }
+
+      .cls-3 {
+        fill: #54d1f7;
+      }
+
+      .cls-4 {
+        fill: #210049;
+      }
+    </style>
+  </defs>
+  <g id="icono_como_participar_hover" transform="translate(-676 1295)">
+    <g id="Group_8" data-name="Group 8">
+      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="26" height="22.579"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(3.649 3.649)">
+      <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="2.737" height="2.737"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(3.649 10.491)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-3" width="2.737" height="2.737"/>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(3.649 17.561)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-3" width="2.737" height="2.737"/>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(2.053 1.825)">
+      <path id="Path_4" data-name="Path 4" class="cls-4" d="M5.689,5.818H.9V.8H5.689ZM2.04,4.677H4.549V1.94H2.04Z" transform="translate(-0.9 -0.8)"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-4" width="15.281" height="1.14" transform="translate(6.614 2.053)"/>
+      <path id="Path_5" data-name="Path 5" class="cls-4" d="M5.689,8.689H.9V3.9H5.689ZM2.04,7.777H4.549V5.04H2.04Z" transform="translate(-0.9 3.17)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-4" width="15.281" height="1.14" transform="translate(6.614 8.895)"/>
+      <path id="Path_6" data-name="Path 6" class="cls-4" d="M5.689,11.789H.9V7H5.689ZM2.04,10.649H4.549V8.14H2.04Z" transform="translate(-0.9 7.14)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-4" width="15.281" height="1.14" transform="translate(6.614 15.965)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-675.947 605.825 21.895 18.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <g id="icono_como_participar" transform="translate(-675.947 605.825)">
+    <g id="Group_14" data-name="Group 14">
+      <g id="Group_12" data-name="Group 12">
+        <path id="Path_4" data-name="Path 4" class="cls-1" d="M5.689,5.818H.9V.8H5.689ZM2.04,4.677H4.549V1.94H2.04Z" transform="translate(-0.9 -0.8)"/>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(6.614 2.053)">
+        <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="15.281" height="1.14"/>
+      </g>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(0 7.07)">
+      <g id="Group_15" data-name="Group 15">
+        <path id="Path_5" data-name="Path 5" class="cls-1" d="M5.689,8.689H.9V3.9H5.689ZM2.04,7.777H4.549V5.04H2.04Z" transform="translate(-0.9 -3.9)"/>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="translate(6.614 1.825)">
+        <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-1" width="15.281" height="1.14"/>
+      </g>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(0 14.14)">
+      <g id="Group_18" data-name="Group 18" transform="translate(0 0)">
+        <path id="Path_6" data-name="Path 6" class="cls-1" d="M5.689,11.789H.9V7H5.689ZM2.04,10.649H4.549V8.14H2.04Z" transform="translate(-0.9 -7)"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(6.614 1.825)">
+        <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="15.281" height="1.14"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-722 810 20 4">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fad2df;
+      }
+
+      .cls-1 {
+        opacity: 0.3;
+      }
+
+      .cls-2 {
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <g id="icono_puntos_pasos" transform="translate(-797 722)">
+    <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-1" cx="2" cy="2" r="2" transform="translate(75 92) rotate(-90)"/>
+    <circle id="Ellipse_19" data-name="Ellipse 19" class="cls-2" cx="2" cy="2" r="2" transform="translate(83 92) rotate(-90)"/>
+    <circle id="Ellipse_20" data-name="Ellipse 20" class="cls-3" cx="2" cy="2" r="2" transform="translate(91 92) rotate(-90)"/>
+  </g>
+</svg>

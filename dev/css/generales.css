@@ -1,0 +1,233 @@
+html {
+  min-height: 750px; }
+
+body {
+  font-family: "Nivea";
+  color: #fff;
+  min-height: 750px; }
+
+.fondointeractivo {
+  position: absolute;
+  width: 100%;
+  background: url(../img/fondo_actividad.jpg) 0% 0% repeat;
+  text-align: center;
+  font-size: 26px;
+  color: #000;
+  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite; }
+
+.disabled {
+  opacity: 0.5; }
+
+.backgroungame {
+  background: #29ECE2;
+  background-image: url(../img/background/bk_top.png), url(../img/background/bk_bottomgame.png), url(../img/background/bk_center.png);
+  background-position: top,bottom, center;
+  background-repeat: repeat-x, repeat-x, repeat; }
+
+.mainWrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.width960 {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto; }
+
+.clear05 {
+  position: relative;
+  width: 100%;
+  height: 5px; }
+
+.clear, .clearTwo, .clearFive {
+  position: relative;
+  width: 100%;
+  height: 10px; }
+
+.clearTwo {
+  height: 20px; }
+
+.clearFive {
+  height: 30px; }
+
+.marginCero {
+  margin: 0px; }
+
+.paddingCero {
+  padding: 0px; }
+
+.relative {
+  position: relative; }
+
+.pointer {
+  cursor: pointer; }
+
+.textCenter {
+  text-align: center; }
+
+.preloadView {
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+#gameDiv {
+  width: 100%;
+  color: #fff;
+  margin-bottom: -20px;
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+  #gameDiv > div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative; }
+
+#gameDivCont {
+  max-height: 420px;
+  margin-left: 45px;
+  position: relative;
+  z-index: 42;
+  max-width: 420px;
+  background: url("../img/bk_popup.png");
+  cursor: pointer; }
+  #gameDivCont canvas {
+    margin-top: 0 !important;
+    padding: 7px 7px; }
+
+.cBlanco {
+  color: #fff; }
+
+.cAzulAguaMarina {
+  color: #26EED6; }
+
+.bckAzulAguaMarina {
+  background-color: #26EED6; }
+
+.cWhite {
+  color: #fff; }
+
+.cRosado {
+  color: #FF02B0; }
+
+.bckRosado {
+  background-color: #FF02B0; }
+
+.cFucsia {
+  color: #FF0084; }
+
+.bckFucsia {
+  background-color: #FF0084; }
+
+.cPurpura {
+  color: #9300B9; }
+
+.bckPurpura {
+  background-color: #9300B9; }
+
+.cMorado {
+  color: #5C1A92; }
+
+.bckMorado {
+  background-color: #5C1A92; }
+
+.cMoradoOscuro {
+  color: #34057C; }
+
+.bckMoradoOscuro {
+  background-color: #34057C; }
+
+.cVerde {
+  color: #B1FD00; }
+
+.bckVerde {
+  background-color: #B1FD00; }
+
+.cVerdeViche {
+  color: #78E000; }
+
+.bckVerdeViche {
+  background-color: #78E000; }
+
+.cAmarillo {
+  color: #FFE400; }
+
+.bckAmarillo {
+  background-color: #FFE400; }
+
+.fontnivea {
+  font-family: "Nivea"; }
+
+.noMargin {
+  margin: 0 !important; }
+
+.btnGeneral, .btnHome {
+  position: relative;
+  text-align: center;
+  min-width: 110px;
+  min-height: 60px;
+  border: 8px solid #FF0084;
+  background-color: #FF02B0;
+  border-radius: 16px;
+  font-family: "Nivea";
+  outline: none;
+  color: #fff; }
+  .btnGeneral:hover, .btnHome:hover {
+    color: #5C1A92;
+    border: 8px solid #78E000;
+    background-color: #B1FD00; }
+
+.btnHome {
+  width: 130px; }
+
+.animated {
+  -webkit-animation-name: bounceIn;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 100;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: bounceIn;
+  animation-duration: 5s;
+  animation-iteration-count: 100;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; }
+
+@keyframes shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, -5px, 0); }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, 2px, 0); } }
+
+.btnGeneral {
+  border: 8px solid #9300B9;
+  background-color: #5C1A92; }
+
+.shake {
+  animation-name: shake; }
+
+.animated2 {
+  -webkit-animation-name: bounceIn;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-iteration-count: 50;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: bounceIn;
+  animation-duration: 100s;
+  animation-iteration-count: 50;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; }
+
+@keyframes shake2 {
+  0%, 100% {
+    transform: rotate(360deg); }
+  50% {
+    transform: rotate(0); } }
+
+.shake2 {
+  animation-name: shake2; }

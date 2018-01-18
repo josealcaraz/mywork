@@ -1,0 +1,178 @@
+
+.backgrondGame{
+	background: #66AB4D url("../img/top/patron_puntas_cancha.png");
+	min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#gameDivCont {
+    position: relative;
+    z-index: 42;
+    cursor: pointer;
+    max-width: 600px;
+    // max-height: 600px;
+    margin: 0 auto;
+	canvas {
+		margin-top: 0 !important;
+        width: 100% !important; 
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+	}
+}
+
+.bkgGame {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+header.headerGame {
+    position: relative;
+    height: 55px;
+    background: transparent;
+    div img {
+        display: none;
+        max-width: 82px;
+    }
+    & > div {
+        position: relative;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto; 
+        .scoreGame {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: white;
+            font-size: 60px;
+            margin: 10px 5%;
+            text-shadow: 2px 2px 0px #fff045;
+        }
+    }
+}
+
+
+.leftCont {
+	float: left;
+	position: relative;
+	top: 0;
+	width: 35%;
+    height: 100%;
+    text-align: center;
+    left: 2%;
+}
+
+.rightCont {
+    height: 100%;
+	width: 62%;
+	float: right;
+    position: relative;
+    right: 1%;
+}
+
+.logoGame {
+    max-width: 340px;
+    width: 100%;
+    display: block;
+    margin: 25px auto;
+}
+
+.txtGame {
+    line-height: 22px;
+    color:rgba(253, 253, 253, 0.7);
+    text-align: center;
+    width: 85%;
+    display: block;
+    margin: 40px auto 80px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    background-color: #210049;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    top: 90%;
+    left:90%;
+    text-align: center;
+    padding-top: 26px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /*  This transform means that the top and left properties    */
+  /*  effectively place the button center instead of the       */
+  /*  top-left corner                                          */
+    transform: translate(-50%,-50%);
+    z-index: 90;
+    transition: 0.2s;
+    &:hover{
+		height: 85px;
+		  width: 86px;
+	}
+    &:after {
+          content: "";
+        position: absolute;
+        width: 3px;
+        height: 34px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        background: #fff;
+        top: 50%;
+        margin-top: -17px;
+        right: 50%;
+        margin-left: -1px;
+    }
+    &:before {
+             content: "";
+        position: absolute;
+        width: 3px;
+        height: 34px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        background: #fff;
+        top: 50%;
+        margin-top: -17px;
+        right: 50%;
+        margin-left: -1px;
+    }
+	&.circleActive{
+		&::after{
+			display: none;
+		}
+		img{
+				display: none;
+			}
+    }
+    
+}
+
+.imgTopRusia {
+    margin: 0px;
+    top: 15px;
+    left: 15px;
+    position: relative;
+    display: block;
+    z-index: 2000;
+}
+
+.lockedBtn {
+    background-position-x: 300px;
+    padding: 6px 38px;
+    border: 2px solid rgba(255,255,255, 0.7);
+    cursor: default;
+    p {
+        color:rgba(255,255,255, 0.7);
+    }
+    &:hover {
+        border: 2px solid rgba(255,255,255, 0.7);
+        p {
+            color:rgba(255,255,255, 0.7);
+        }
+    }
+}

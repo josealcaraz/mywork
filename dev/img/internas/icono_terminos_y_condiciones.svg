@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1608 361.484 63.801 79.688">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ff2f73;
+      }
+
+      .cls-3 {
+        fill: #210049;
+      }
+    </style>
+  </defs>
+  <g id="icono_terminos_y_condiciones" transform="translate(1608 361.484)">
+    <g id="Group_1281" data-name="Group 1281" transform="translate(2.002 2.002)">
+      <path id="Path_1398" data-name="Path 1398" class="cls-1" d="M54.142,1.6H1.6V77.285H61.4V8.856Z" transform="translate(-1.6 -1.6)"/>
+    </g>
+    <g id="Group_1282" data-name="Group 1282" transform="translate(15.888 15.888)">
+      <rect id="Rectangle_633" data-name="Rectangle 633" class="cls-2" width="45.912" height="61.799"/>
+    </g>
+    <g id="Group_1289" data-name="Group 1289">
+      <g id="Group_1283" data-name="Group 1283">
+        <path id="Path_1399" data-name="Path 1399" class="cls-3" d="M63.8,79.688H0V0H55.419L63.8,8.382Zm-59.8-4H59.8V10.008l-6-6H4Z"/>
+      </g>
+      <g id="Group_1288" data-name="Group 1288" transform="translate(11.009 21.267)">
+        <g id="Group_1284" data-name="Group 1284" transform="translate(0 13.636)">
+          <rect id="Rectangle_634" data-name="Rectangle 634" class="cls-1" width="41.658" height="4.003"/>
+        </g>
+        <g id="Group_1285" data-name="Group 1285">
+          <rect id="Rectangle_635" data-name="Rectangle 635" class="cls-1" width="41.658" height="4.003"/>
+        </g>
+        <g id="Group_1286" data-name="Group 1286" transform="translate(0 27.397)">
+          <rect id="Rectangle_636" data-name="Rectangle 636" class="cls-1" width="41.658" height="4.003"/>
+        </g>
+        <g id="Group_1287" data-name="Group 1287" transform="translate(0 41.158)">
+          <rect id="Rectangle_637" data-name="Rectangle 637" class="cls-1" width="41.658" height="4.003"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

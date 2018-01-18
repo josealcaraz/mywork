@@ -1,0 +1,88 @@
+.toastWrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+	width: 100%;
+
+	.popupBtnClose {
+	     top: 15px;
+		z-index: 2;
+		right: 2px;
+		cursor: pointer;
+		position: absolute;
+		background: #34057C;
+		width: 30px;
+		font-family: "KGTurningTables";
+		font-size: 23px;
+		height: 30px;
+		color: #fff;
+		&:hover {
+			background: #FFE400;
+			color: #34057C;
+			//@extend .icon-cerrar_hover;
+		}
+	} 
+
+	.error {
+	    color: #fff;
+		background: #9300B9;
+	}
+
+	.success {
+	    color: #fff;
+	    background: #FF0084;
+	}
+
+	.info {
+		
+	}
+}
+
+.toastMsg {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	display: none;
+	overflow: hidden;
+	font-family: "Aller";
+	font-size: 18px;
+	text-align: center;
+	line-height: 1;
+
+	p {
+		margin: 0 auto;
+		width: 75%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.wppTextToast{
+	max-width: 960px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: table;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+
+@media (max-width: 600px){
+
+	.toastMsg {
+		font-size: 14px;
+
+		p {
+			margin: 0px auto;
+			max-width:70%;
+			font-size: 14px;
+			line-height: 14px;
+		
+		}
+
+	}
+}

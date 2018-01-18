@@ -1,0 +1,118 @@
+    
+     #header{
+         bottom: 0;
+              top: initial;
+                  background: #fff;
+          ul{
+              border-bottom:none;
+              text-align: center;
+              li{
+                width: 33.33%;
+                background: #fff;
+                padding: 0;
+                height: 50px;
+                padding-top: 6px;
+                line-height: 12px;
+                    display: inline-grid;
+                text-align: center;
+                opacity: 1;
+                color: #210049;
+                &.logoNequi{
+                    display: none;
+                }
+                p{
+                    font-size: 10px;
+                    display: none;
+                }
+                .iconMenu{
+                    display: block;
+                    margin: 0 auto;
+                    position: relative;
+                    top: 6px;
+                    transition: 0.5s;
+                }
+                &:hover{
+                    &::after{
+                        opacity: 0;
+                    }
+                }
+                &::after{
+                    bottom: inherit;
+                    top: 0;
+                }
+                
+                &.activeMenu{
+                    opacity: 1;
+                    color: #210049;
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+                &#inicio{
+                   .iconMenu{
+                      background: url("../img/header/icono_inicio.svg");
+                      background-repeat: no-repeat;
+                      width: 26px;
+                      height: 26px;
+                   }
+                }
+                &#como{
+                   .iconMenu{
+                       background: url("../img/header/icono_como_participar.svg");
+                       background-repeat: no-repeat;
+                      width: 30px;
+                      height: 26px;
+                   }
+                }
+                &#premios{
+                   .iconMenu{
+                       background: url("../img/header/icono_premios.svg");
+                       background-repeat: no-repeat;
+                      width: 26px;
+                      height: 26px;
+                   }
+                }
+                &.activeMenu{
+                    opacity: 1;
+                    &#inicio{
+                        p{
+                            display: block;
+                        }
+                        .iconMenu{
+                            top: 0;
+                            background: url("../img/header/icono_inicio_hover.svg");
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    &#como{
+                     p{
+                            display: block;
+                        }
+                        .iconMenu{
+                            top: 0;
+                            background: url("../img/header/icono_como_participar_hover.svg");
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    &#premios{
+                     p{
+                            display: block;
+                        }
+                        .iconMenu{
+                            top: 0;
+                            background: url("../img/header/icono_premios_hover.svg");
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    
+                }
+              }
+          }
+          &.section ul .btnTrasparent{
+              display: none;
+          }
+          .btnTrasparent{
+              display: none;
+          }
+     }
+    
