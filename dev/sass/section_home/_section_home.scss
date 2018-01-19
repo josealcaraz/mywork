@@ -99,11 +99,7 @@ p{
 #section2{
 	overflow: hidden;
 	background: white url("../img/home/patron_curvas.png");
-
-
 }
-
-
 
 
 // css section0  
@@ -214,12 +210,13 @@ p{
 		position: relative;
 		button{
 			background: transparent;
-			border: 1px solid #FAD2DF;
-			color: #FAD2DF;
-			width: 50px;
-			height: 50px;
+			border: 1px solid #b1b1b1;
+			color: #b1b1b1;
+			width: 45px;
+			height: 45px;
 			border-radius: 50px;
-			margin: 15px;
+			margin: 17px;
+			font-family: "AvenirNextLTPro-Demi";
 			&:focus{
 				outline: none;
 			}
@@ -246,9 +243,9 @@ p{
 	}
 	.slick-active{
 		button{
-			background: #0F1562 !important;
+			background: white !important;
 			border: 1px solid transparent;
-			color: #fff !important;
+			color: black !important;
 		}
 	}
 }
@@ -436,10 +433,6 @@ p{
 
 
 
-
-
-
-
 .logoHome {
 	position: relative;
     background: url(../img/home_logo.svg) center no-repeat;
@@ -448,4 +441,32 @@ p{
     height: 294px;
     margin: 10px auto;
     width: 90%;
+}
+
+.previewGame {
+	display: block;
+    max-width: 275px;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 10px;
+	// border: 6px solid #1f807d;
+}
+
+.clientImg {
+	max-width: 180px;
+}
+
+.clientImg2 {
+	max-width: 115px;
+}
+
+.clientImg3 {
+	max-width: 50px;
+}
+.prevI {
+	display: block;
+    max-width: 360px;
+    width: 90%;
+    margin: 95px auto 0;
+    border-radius: 10px;
 }

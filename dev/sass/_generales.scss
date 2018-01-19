@@ -53,6 +53,11 @@ input{
 	width: 100%;
 	height: 10px;
 }
+.clearBig {
+	position: relative;	
+	width: 100%;
+	height: 50px;
+}
 .clearTwo {
 	height: 20px;
 }
@@ -112,13 +117,9 @@ input{
 .cOrange{
 	color: #FD9C37;
 }
-.cPink2{
-	color: #FAD2DF;
-}
 .cGreen{
-	color: #C3ED7A;
+	color: #9cff2f;
 }
-
 .bckYellow{
 	background-color: #FFFF00;
 }
@@ -338,11 +339,8 @@ input{
 	&:hover{
 		
 		background-position: 0;
-    	
-		padding: 10px 23px;
-		border: 0px solid transparent;
 		p{
-			color: #f44880 ;
+			color: #16615d ;
 		}
 	}
 }

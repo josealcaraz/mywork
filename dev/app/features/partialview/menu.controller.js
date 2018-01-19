@@ -28,18 +28,13 @@
             $(window).scroll(function () {
                 var barra = $(window).scrollTop();
                 vm.barraScroll = barra; 
-                //console.log(vm.barraScroll >= vm.elemento1);
-                if(barra == 0){
-                    global.animatedLogo.goToAndPlay(0);          
-                }
+                
                 if (barra >= (vm.elemento1 + global.tamanioseccion2-150)) {
                     var imagen = document.getElementById("logoNequiFooter");
                     if (imagen != undefined) {
                         imagen.src = vm.pathname + "img/home/logo_nequi_azul.svg";
                     }
-                 
-                    $('#fp-nav ul li a span').addClass("purple");   
-                                 
+                    $('#fp-nav ul li a span').addClass("purple");  
                     $('.linkTyC').addClass("linkS3");
                     $('.navMenu').addClass("navMenuSection");
                     $('.logoNequiMobile').addClass("logoNequiMobileSection");
@@ -47,6 +42,7 @@
                     $('#premios').addClass("activeMenu");
                     $('#header').addClass("section");
                     $('.logoNequi').addClass('showLogo');
+
                 } else if (barra >= vm.elemento1-50) {
                     var imagen = document.getElementById("logoNequiFooter");
                     if (imagen != undefined) {
