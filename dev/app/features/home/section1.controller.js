@@ -23,15 +23,6 @@
                 cssEase: 'linear'
             });
             global.tamanioseccion2 = $('#section1').height();
-            $('.sliderSection2').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-                
-                $('.sliderSection2 .slick-dots li button').css('background', 'none');
-                $('.sliderSection2 .slick-dots li button').css('color', '#fff');
-                for (var i=0; i < nextSlide;i++){
-                    $('.sliderSection2 .slick-dots li button')[i].style.background = 'rgba(255, 255, 255, 0.4)';
-                    $('.sliderSection2 .slick-dots li button')[i].style.color = '#fff';
-                }
-            });
         });
         
     }

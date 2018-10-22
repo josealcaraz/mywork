@@ -7,13 +7,13 @@
               border-bottom:none;
               text-align: center;
               li{
-                width: 33.33%;
+                width: 32%;
                 background: #fff;
                 padding: 0;
                 height: 50px;
                 padding-top: 6px;
                 line-height: 12px;
-                    display: inline-grid;
+                display: inline-grid;
                 text-align: center;
                 opacity: 1;
                 color: #210049;
@@ -58,7 +58,7 @@
                 }
                 &#como{
                    .iconMenu{
-                       background: url("../img/header/icono_como_participar.svg");
+                       background: url("../img/header/icono_premios.svg");
                        background-repeat: no-repeat;
                       width: 30px;
                       height: 26px;
@@ -66,7 +66,7 @@
                 }
                 &#premios{
                    .iconMenu{
-                       background: url("../img/header/icono_premios.svg");
+                       background: url("../img/header/icono_como_participar.svg");
                        background-repeat: no-repeat;
                       width: 26px;
                       height: 26px;
@@ -90,7 +90,7 @@
                         }
                         .iconMenu{
                             top: 0;
-                            background: url("../img/header/icono_como_participar_hover.svg");
+                            background: url("../img/header/icono_premios_hover.svg");
                             background-repeat: no-repeat;
                         }
                     }
@@ -100,7 +100,7 @@
                         }
                         .iconMenu{
                             top: 0;
-                            background: url("../img/header/icono_premios_hover.svg");
+                            background: url("../img/header/icono_como_participar_hover.svg");
                             background-repeat: no-repeat;
                         }
                     }

@@ -17,6 +17,5 @@
                 redirectTo: "/home"
             });
     }
-  
 
 })();

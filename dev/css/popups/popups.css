@@ -62,4 +62,5 @@
   .video img {
     width: 100%;
     vertical-align: middle;
-    display: inline-block; }
+    display: inline-block;
+    max-width: 677px; }

@@ -66,13 +66,12 @@
     font-family: "AvenirNextLTPro-Demi";
     font-size: 18px;
     li{
-        float: left;
-        &::after{
-            -ms-transform: rotate(0); /* IE 9 */
-			-webkit-transform: rotate(0); /* Safari */
-			transform: rotate(0);
-            top: 36px;
-            left: 0;
+        display: inline-block;
+        button {
+            margin: 10px;
+        }
+        &:after, &:before{
+            display: none;
         }
     }
 }
@@ -151,3 +150,6 @@ p{
     max-width: 139px;
     margin-left: 6px;
 }
+.video {
+    top: 100px;
+} 

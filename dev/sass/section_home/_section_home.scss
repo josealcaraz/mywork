@@ -203,40 +203,51 @@ p{
 .slick-dots{
 	position: absolute;
 	top: 21px;
-        left: -163px;
+    left: -163px;
 	font-family: "AvenirNextLTPro-Demi";
 	font-size: 18px;
 	li{
 		position: relative;
 		button{
 			background: transparent;
-			border: 1px solid #b1b1b1;
-			color: #b1b1b1;
-			width: 45px;
-			height: 45px;
+			border: 1px solid #FFFFFF;
+			color: #FFFFFF;
+			width: 33px;
+			height: 33px;
 			border-radius: 50px;
-			margin: 17px;
-			font-family: "AvenirNextLTPro-Demi";
+			margin: 15px;
+			font-family: "Lato-Regular";
+			font-size: 15px;
+			padding-bottom: 3px;
 			&:focus{
 				outline: none;
 			}
 		}
 		&:after{
 			content: "";
+			margin-left: -1px;
+			height: 4px;
+			width: 4px;
 			position: absolute;
-			background: url("../img/internas/icono_puntos_pasos.svg");
-			background-repeat: no-repeat;
-			-ms-transform: rotate(90deg); /* IE 9 */
-			-webkit-transform: rotate(90deg); /* Safari */
-			transform: rotate(90deg);
-			top: -3px;
+			top: 4px;
 			left: 50%;
-			margin-left: -12px;
-			width: 22px;
-			height: 8px;
+			background: white;
+			border-radius: 20px;
+		}
+		&:before{
+			content: "";
+			margin-left: -1px;
+			height: 4px;
+			width: 4px;
+			position: absolute;
+			top: -7px;
+			left: 50%;
+			background: white;
+			border-radius: 20px;
+			opacity: 0.3;
 		}
 		&:first-child { 
-			&:after{
+			&:after, &:before{
 				display: none;
 			}
 		}
@@ -245,7 +256,7 @@ p{
 		button{
 			background: white !important;
 			border: 1px solid transparent;
-			color: black !important;
+			color: #186563 !important
 		}
 	}
 }
@@ -276,7 +287,7 @@ p{
 .sliderSection3{
 	left: -28px;
 	.slick-dots{
-		    top: 60px;
+		top: 60px;
 		left: -15px;
 		li{
 			float: left;
@@ -286,7 +297,26 @@ p{
 				margin: 15px;
 			}
 			&:after{
-				display: none;
+				content: "";
+				margin-top: -2px;
+				height: 4px;
+				width: 4px;
+				position: absolute;
+				top: 50%;
+				left: 4px;
+				background: #0F1562;
+				border-radius: 20px;
+			}
+			&:before {
+				content: "";
+				margin-top: -2px;
+				height: 4px;
+				width: 4px;
+				position: absolute;
+				top: 50%;
+				left: -6px;
+				background: #0F1562;
+				border-radius: 20px;
 			}
 		}
 		.slick-active{
@@ -469,4 +499,27 @@ p{
     width: 90%;
     margin: 95px auto 0;
     border-radius: 10px;
+}
+
+.linkPragma {
+	color: #FFFFFF;
+	text-decoration: none;
+	&:visited, &:focus {
+		text-decoration: none;
+		color: white;
+	}
+	&:hover {
+		text-decoration: none;
+		color: #E3E3E3;
+	}
+}
+
+.introTxtSec1 {
+	font-size: 16px;
+	max-width: 450px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	font-family: "Lato-Regular";
+	color: #FFFFFF;
 }
